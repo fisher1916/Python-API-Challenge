@@ -10,6 +10,7 @@ A series of scatter plots were created to showcase the following relationships:
 * Wind Speed (mph) vs. Latitude
 
 
+<<<<<<< HEAD:README.md
 Linear regressions were run on each relationship, only this time they were separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
@@ -33,3 +34,6 @@ Personal ideal weather conditions for a vacation were used to narrow down the li
 Using Google Places AP, a hotel for each city located within 5000 meters of the city were listed.
 
 The hotels were plotted on top of the humidity heatmap.
+=======
+3) Wind speed does not seem to be effected by latitude either. However there are few data points for wind speeds over 25mph. It's fair to conclude that fewer cities are located in zones with high wind speeds as high winds are less habitable by humans.
+>>>>>>> 53d24de7791e75efb343640c276744922ddd18e7:Analysis.md
