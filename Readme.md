@@ -35,5 +35,4 @@ Using Google Places AP, a hotel for each city located within 5000 meters of the 
 
 The hotels were plotted on top of the humidity heatmap.
 =======
-3) Wind speed does not seem to be effected by latitude either. However there are few data points for wind speeds over 25mph. It's fair to conclude that fewer cities are located in zones with high wind speeds as high winds are less habitable by humans.
->>>>>>> 53d24de7791e75efb343640c276744922ddd18e7:Analysis.md
+
