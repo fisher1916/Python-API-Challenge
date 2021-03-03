@@ -9,9 +9,6 @@ A series of scatter plots were created to showcase the following relationships:
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-- **Vacation Locations:** 
-
-
 Linear regressions were run on each relationship, only this time they were separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
@@ -23,16 +20,9 @@ Linear regressions were run on each relationship, only this time they were separ
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-
-
-
-Jupyter-gmaps and the Google Places API were used in this part of the project.
-
-Created a heat map that displays the humidity for every city from the previous project (WeatherPy)
-
-Personal ideal weather conditions for a vacation were used to narrow down the list of cities. 
-
-Using Google Places AP, a hotel for each city located within 5000 meters of the city were listed.
+- **Vacation Locations:** [`VacationPy`](VacationPy/VacationPy.ipynb) Jupyter-gmaps and the Google Places API were used to create a heat map that displays the humidity for every city from the previous project (WeatherPy) based on latitude and longitude.
+- Personal ideal weather conditions for a vacation were used to narrow down the list of cities. 
+- Using Google Places AP, a hotel for each city located within 5000 meters of the city were listed.
 
 The hotels were plotted on top of the humidity heatmap.
 =======
