@@ -1,6 +1,6 @@
-# Part I - WeatherPy
+# Weather Analysis and Ideal Vacation Locations
 
-Using a Python script and API, the weather of 500+ cities was obtained to visualize the varying distance from the equator from across the world. Both (https://pypi.python.org/pypi/citipy) and [OpenWeatherMap API](https://openweathermap.org/api) were used to create a visual representative model of weather across world cities.
+- **Weather Analysis:** [`WeatherPy`](WeatherPy/WeatherPy.ipynb) Using a Python script and API, the weather of randomly selected 500+ cities was obtained to visualize the varying distance from the equator from across the world. Both (https://pypi.python.org/pypi/citipy) and [OpenWeatherMap API](https://openweathermap.org/api) were used to create a visual representative model of weather across world cities.
 
 A series of scatter plots were created to showcase the following relationships:
 
@@ -9,8 +9,9 @@ A series of scatter plots were created to showcase the following relationships:
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
+- **Vacation Locations:** 
 
-<<<<<<< HEAD:README.md
+
 Linear regressions were run on each relationship, only this time they were separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
@@ -23,7 +24,7 @@ Linear regressions were run on each relationship, only this time they were separ
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
 
-### Part II - VacationPy
+
 
 Jupyter-gmaps and the Google Places API were used in this part of the project.
 
